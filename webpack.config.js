@@ -3,8 +3,8 @@ var webpack = require('webpack'),
     validate = require('webpack-validator'),
     rootDir = __dirname,
     common, config;
-    
-    common = {
+
+common = {
     entry: rootDir + '/app.jsx',
     output: {
         path: rootDir,
