@@ -1,4 +1,44 @@
-body {
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	padding: 10px 15px 15px;
+	font-family: 'Segoe UI', 'SegoeUI', Segoe\000020UI, Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 13px;
+	color: #666;
+	line-height: 15px;
 }
+
+#container ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#container li {
+	margin-top: 14px;
+}
+
+#container a {
+	color: #07c;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#container a:hover {
+	text-decoration: underline;
+}
+
+#container p {
+	margin: 0;
+}
+
+#container p + p {
+	margin-top: 3px;
+	font-size: 11px;
+}
+
+#container p:last-child {
+	margin-top: 0;
+}
+
