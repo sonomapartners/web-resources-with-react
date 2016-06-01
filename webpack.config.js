@@ -1,10 +1,10 @@
-var webpack = require('webpack');
-var merge = require('webpack-merge');
-var validate = require('webpack-validator');
-
-var rootDir = __dirname;
-
-var common = {
+var webpack = require('webpack'),
+    merge = require('webpack-merge'),
+    validate = require('webpack-validator'),
+    rootDir = __dirname,
+    common, config;
+    
+    common = {
     entry: rootDir + '/app.jsx',
     output: {
         path: rootDir,
@@ -26,8 +26,6 @@ var common = {
         }]
     }
 };
-
-var config;
 
 switch (process.env.npm_lifecycle_event) {
     case 'build':
